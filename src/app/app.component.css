@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+  }
+  
+  header {
+    margin-top: 30px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  .app-search {
+    margin-top: auto;
+    min-height: auto;
+  }
+  .app-body {
+    margin-top: 120px;
+    min-height:auto; /* Adjust height to fit the viewport */
+  }
+  .search-link {
+    display: inline-block;
+    padding: 5px;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+  }
+  
+  .search-icon {
+    font-size: 45px;
+    color: rgb(114, 192, 13);
+  }
+  

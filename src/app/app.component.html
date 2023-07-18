@@ -1,0 +1,21 @@
+<h1 class="text-primary">Angular blog website</h1>
+
+<app-headers></app-headers>
+<app-category-navbar></app-category-navbar>
+
+<app-music-integration></app-music-integration>
+
+
+<div class="app-body">
+  
+  <router-outlet></router-outlet>
+  <app-dark-mode></app-dark-mode>
+</div>
+<div class="container mt-5 mb-5">
+  <div class="row justify-content-center">
+    <app-subscription-form *ngIf="isHomePage()"></app-subscription-form>
+    <app-scroll-component></app-scroll-component>
+  </div>
+</div>
+<app-footers></app-footers>
+<app-scroll-component></app-scroll-component>
